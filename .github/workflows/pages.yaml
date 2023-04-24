@@ -2,8 +2,7 @@
 on:
   push:
     branches:
-    -documentation
-    -dev
+    branches: [ "dev"]
   pull_request:
     branches: [ "documentation" ]
 # Functions
