@@ -1,11 +1,11 @@
 # Triggers
 on:
   push:
-    branches: [ "documentation" ]
-    branches: [ "dev"]
+    branches:
+    -documentation
+    -dev
   pull_request:
     branches: [ "documentation" ]
-    branches: [ "dev"]
 # Functions
 jobs:
   # Build Job
