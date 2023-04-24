@@ -13,6 +13,7 @@ import Map from "./Map.jsx";
 import Lights from "./Lights.jsx";
 import Cubes from "./Cubes.jsx";
 import Skybox from "./Skybox.jsx";
+import { GltfModel } from "./GltfModel.jsx";
 
 export const Scene = () => {
   // Ottieni oggetti camera e gl da useThree
@@ -51,6 +52,7 @@ export const Scene = () => {
           {/** Mappa */}
           <Map />
           <Cubes />
+          <GltfModel path={"./src/assets/models/coral_piece.glb"} args={[3, 3, 3]} scale={0.5} position={[10, 0, -5]}/>
       </Physics>
     </>
   );
