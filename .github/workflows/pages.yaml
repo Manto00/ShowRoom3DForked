@@ -2,7 +2,6 @@
 on:
   push:
     branches: 
-    - 'documentation'
     - 'dev'
   pull_request:
     branches: [ "documentation" ]
