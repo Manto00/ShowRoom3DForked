@@ -1,7 +1,9 @@
 # Triggers
 on:
   push:
-    branches: [ "dev" ]
+    branches: 
+    - 'documentation'
+    - 'dev'
   pull_request:
     branches: [ "dev" ]
 # Functions
